@@ -1,0 +1,74 @@
+body {
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+
+#container {
+    display: flex;
+    flex-direction: column;
+    background-color: #DFD9E2;
+    border-radius: 12px;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+  
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); /* cute shadow! */
+  }
+  
+  #prompt-box {
+    display: flex;
+    min-height: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1.4;
+    overflow-wrap: break-word;
+
+  }
+  
+  #prompt {
+    background-color: #89909F;
+    border-radius: 8px;
+    opacity: 0.9;
+    color: white;
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+  }
+  
+  #prompt:hover {
+    background-color: #2A7F62;
+    opacity: 1;
+  }
+
+  #prompt:focus {
+    background-color: #2A7F62;
+    outline-offset: 4px;
+  }
+  
+  #notes {
+    background-color: #89909F;
+    opacity: 0.85;
+    color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    text-align: center;
+    width: 90%;
+    font-size: 1rem;
+  }
+  
